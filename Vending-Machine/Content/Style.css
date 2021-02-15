@@ -1,0 +1,114 @@
+﻿body {
+    background-color: lemonchiffon;
+}
+
+.wrapper-machine {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.machine {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.dispatched {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    height: 73vh;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    padding: 1rem;
+    background-color: blue;
+    border-radius: 7px;
+    padding-bottom: 1rem;
+    overflow-y: scroll;
+}
+
+.dispatched-item .item-order {
+    margin-left: 1rem;
+}
+
+.item-order-dispached {
+    display: flex;
+    flex-direction: column;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    background-color: #FFF;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    border-radius: 7px;
+    justify-content: center;
+    border-bottom-color: dodgerblue;
+}
+
+.your-order {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    width: 100%;
+    background-color: floralwhite;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    border-radius: 7px;
+    align-content: center;
+}
+
+    .your-order .order-title {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+.order {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+
+.vending {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    justify-content: center;
+}
+
+    .vending img {
+        padding: 10px;
+    }
+
+    .vending strong {
+        margin: auto;
+        padding-bottom: 10px;
+    }
+
+.item-suborder {
+    width: 60%;
+}
+
+.item-order {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+}
+
+    .item-order strong {
+        min-width: 80%;
+    }
+
+
+
+
+
+
